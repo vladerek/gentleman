@@ -9,48 +9,28 @@ a{
 	color:#000;
 	text-decoration:none;
 }
-h1{
-	padding:10px;
-	margin:20px;
-	font-size:40px;
-	text-transform:uppercase;
-	text-shadow:0px 0px 1px #fff;
-	color:#333;
-	background:transparent url(../images/line.png) repeat-x bottom left;
-}
 .rm_wrapper{
-	width:1160px;
+	width:95%;
 	margin:0 auto;
 	position:relative;
 }
 .rm_container{
-	width:1050px;
+	width:88%;
 	overflow:hidden;
 	position:relative;
-	height:530px;
+	height:730px;
 	margin:0 auto;
 }
-.rm_container h2{
-	background:transparent url(../images/lines.png) repeat top left;
-	padding:10px 30px;
-	position:absolute;
-	bottom:170px;
-	right:0px;
-	color:#000;
-	font-size:36px;
-	text-transform:uppercase;
-	text-shadow:1px 0px 1px #fff;
-}
 .rm_container ul{
-	width:1170px;
+	width:100%;
 }
 .rm_container ul li{
 	float:left;
 	margin-left:-80px;
 	position:relative;
 	overflow:hidden;
-	width:310px;
-	height:465px;
+	width:419px;
+	height:630px;
 	border:30px solid #f0f0f0;
 	border-width:50px 30px 0px 30px;
 	background-color:#f0f0f0;
@@ -64,7 +44,7 @@ h1{
 	position: absolute;
 	height: 110px;
 	background: #f0f0f0;
-	width: 530px;
+	width: 810px;
 	bottom: -30px;
 	left: 0px;
 	-moz-transform:rotate(-3deg);

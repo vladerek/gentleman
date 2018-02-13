@@ -22,7 +22,7 @@ $(function() {
 				//difference of animation time between the items
 			var	timeDiff			= 300,
 				//time between each image animation (slideshow)
-				slideshowTime		= 3000,
+				slideshowTime		= 5000,
 				slideshowInterval,	
 				//checks if the images are rotating
 				isRotating			= false,
@@ -40,6 +40,7 @@ $(function() {
 				init				= function() {
 					configure();
 					initEventsHandler();
+					startSlideshow();
 				},
 				//initialize some events
 				initEventsHandler	= function() {
@@ -63,14 +64,14 @@ $(function() {
 					/*
 					start and stop the slideshow
 					*/
-					$rm_play.bind('click', function(e) {
+					/*$rm_play.bind('click', function(e) {
 						startSlideshow();
 						return false;
 					});
 					$rm_pause.bind('click', function(e) {
 						stopSlideshow();
 						return false;
-					});
+					});*/
 					/*
 					adds events to the mouse and left / right keys
 					*/
