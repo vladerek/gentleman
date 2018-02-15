@@ -2,3 +2,54 @@ li {
 	list-style-type: none;
 	display: inline-block;
 }
+
+.navigation {
+	background-color: #333;
+}
+
+nav li {
+	padding: 25px 50px;
+	padding-bottom: 0;
+}
+
+nav li a {
+	font-family: "Marck Script", cursive;
+	font-size: 28px;
+	color: #ff0066;
+}
+
+nav li a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.item1 {
+	-webkit-transform: skew(20deg);
+	-moz-transform: skew(20deg);
+	-o-transform: skew(20deg);
+	transform: skew(20deg);
+	-webkit-transform: rotate(60deg);
+	-ms-transform: rotate(60deg); 
+	transform: rotate(60deg);
+}
+
+.item2 {
+	-webkit-transform: skew(20deg);
+	-moz-transform: skew(20deg);
+	-o-transform: skew(20deg);
+	transform: skew(20deg);
+}
+
+.item1 {
+	-webkit-transform: skew(20deg);
+	-moz-transform: skew(20deg);
+	-o-transform: skew(20deg);
+	transform: skew(20deg);
+}
+
+.item1 {
+	-webkit-transform: skew(20deg);
+	-moz-transform: skew(20deg);
+	-o-transform: skew(20deg);
+	transform: skew(20deg);
+}
